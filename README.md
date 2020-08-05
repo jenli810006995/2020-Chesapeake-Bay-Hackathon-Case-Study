@@ -13,7 +13,7 @@
 ## Data Analysis
 ###### Methodology
 
-## Data Visulization
+## Data Visualization
 
 ###### Result
 
