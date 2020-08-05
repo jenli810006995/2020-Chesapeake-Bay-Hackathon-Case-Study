@@ -1,2 +1,24 @@
-# Hack_the_Bay_Repo
-This is the repo for Hack the Bay Hathathon
+# Hack the Bay Hackethon
+
+###### Introduction
+
+## Collect Data
+
+###### Tiers
+
+## Data pre-processing
+
+## Feature Engineering
+
+## Data Analysis
+###### Methodology
+
+## Data Visulization
+
+###### Result
+
+## Conclusion
+
+
+
+
