@@ -1,4 +1,4 @@
-# Hack the Bay Hackethon
+# Hack the Bay Hackathon
 
 ###### Introduction
 
