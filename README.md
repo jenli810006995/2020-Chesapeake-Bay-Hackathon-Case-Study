@@ -19,15 +19,19 @@ For the water temperature, all of the filtered data sets for the analysis and vi
 4. Exploratory Data Analysis
 
     * Methodology:
-    1. Stationality: Use AF, PACF and Augmented Dickey–Fuller test to check stationality. The water temperature is stationary time-series data. ([Citation](https://github.com/marbakes/pca-arima-fun/blob/master/Data%20Processing%20%26%20Modeling.ipynb))
     
-    2. Summary Statistics: After plotting water temperature within 2015 to 2020, I found the temperature range for the winter has something interesting to look at. Especially after 2017. For Example, the following scale of the winter water temperature reveals the increasing range:
+    1. Stationality: 
+        Use AF, PACF and Augmented Dickey–Fuller test to check stationality. The water temperature is stationary time-series data. ([Citation](https://github.com/marbakes/pca-arima-fun/blob/master/Data%20Processing%20%26%20Modeling.ipynb))
+    
+    2. Summary Statistics: 
+        After plotting water temperature within 2015 to 2020, I found the temperature range for the winter has something interesting to look at. Especially after 2017. For Example, the following scale of the winter water temperature reveals the increasing range:
     
     ![2017 Winter](https://github.com/jenli810006995/Hack_the_Bay_Repo/blob/master/Images/2017_winter_cbp_range.jpg)
     ![2018 Winter](https://github.com/jenli810006995/Hack_the_Bay_Repo/blob/master/Images/2018_winter_cbp_range.jpg)
     ![2020 Winter](https://github.com/jenli810006995/Hack_the_Bay_Repo/blob/master/Images/2020_winter_cbp_range.jpg)
     
-    3. Geospatial Maps: I used the 5-year water temperature for the color scale, so I would be able to see whether a certain range of temperature increases in certain area. In 2020, there are several unusual high temperature points.
+    3. Geospatial Maps: 
+        I used the 5-year water temperature for the color scale, so I would be able to see whether a certain range of temperature increases in certain area. In 2020, there are several unusual high temperature points.
     
     ![2015 Summer CMC](https://github.com/jenli810006995/Hack_the_Bay_Repo/blob/master/Images/2015%20Summer%20CMC%20Water%20Temperature%20Heatmap.png)
     ![2016 Summer CMC](https://github.com/jenli810006995/Hack_the_Bay_Repo/blob/master/Images/2016%20Summer%20CMC%20Water%20Temperature%20Heatmap.png)
@@ -45,6 +49,7 @@ For the water temperature, all of the filtered data sets for the analysis and vi
     
 
 5. Data Visualization
+
    * I created a seasonal overview dashboard in Tableau, using year, season and state parameters to invite end users to take a look at the data set.
    Additionally, With Tableau's geospatial mapping feature, I was able to check on the land use in the above region, The Yellow Breeches Creek in Pennsylvania, 
    which is a commonly fishing resort ([Reference](https://www.orvis.com/fishing_report.aspx?locationid=6015))
@@ -52,6 +57,7 @@ For the water temperature, all of the filtered data sets for the analysis and vi
    * [Tableau Youtube Demonstration](https://jenli810006995.github.io/)
 
 6. Challenges
+
    * Not all the states in the Chesapeake Bay area have comprehensively data in the 5-year window. 
    * Most data sets are in large magnitude, and hope to be able to access data sets in the FTP in the near future
 
